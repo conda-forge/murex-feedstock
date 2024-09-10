@@ -1,5 +1,5 @@
 {% set name = "murex" %}
-{% set version = "6.0.1000" %}
+{% set version = "6.2.4000" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/lmorg/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 82c54d54a75b5a3f29d88d006a7614f61cb6464ffe78784f5f1e97cd6c6937dd
+  sha256: c5e04bf1a43c6a3c326e302f8739df1440a5cee164f47ec8b1b549a8c5e5cfb4
 
 build:
   number: 0
-  skip: True  # [win]
+  skip: true  # [win]
 
 requirements:
   build:
@@ -25,7 +25,7 @@ test:
 about:
   home: https://murex.rocks
   license: GPL-2.0-only
-  license_file: 
+  license_file:
     - LICENSE
     - license-files/
   summary: Bash-like shell designed for greater command-line productivity and safer scripts
