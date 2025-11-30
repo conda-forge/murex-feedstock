@@ -3,7 +3,7 @@ About murex-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/murex-feedstock/blob/main/LICENSE.txt)
 
-Home: https://murex.rocks
+Home: https://murex.rocks/
 
 Package license: GPL-2.0-only
 
