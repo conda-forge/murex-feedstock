@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "7.2.1001"
+  version: "7.3.1231"
 
 package:
   name: murex
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/lmorg/murex/archive/v${{ version }}.tar.gz
-  sha256: 264a1b3ffca3fce8d8c1b0757e0498dc544fd5388694c405c6e4e42c6f87a82c
+  sha256: 318a283faf9de54ef5caec711cb26a38bbd22f243f5940dceebc8c7b5f80c791
 
 build:
   number: 0
